@@ -1,40 +1,53 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
-template: splash # Remove or comment out this line to display the site sidebar on this page.
+title: "HMS-opplæring: Gweike LC1390N Laserkutter"
+description: "Komplett HMS-kurs for bruk av Gweike LC1390N CO2-laserkutter"
+template: splash
 hero:
-  tagline: Congrats on setting up a new Starlight project!
-  image:
-    file: ../../assets/houston.webp
+  tagline: Helse, miljø og sikkerhet for CO2-lasereksponering
   actions:
-    - text: Example Guide
-      link: /guides/example/
+    - text: Start kurset
+      link: /modul-01-introduksjon/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+      variant: primary
+    - text: Kunnskapstest
+      link: /modul-09-operatorgodkjenning/
+      icon: open-book
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Kursets moduler
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Introduksjon" icon="open-book">
+    Maskinspesifikasjoner og viktige komponenter.
+  </Card>
+  <Card title="Laserfare" icon="warning">
+    Usynlig stråle, klassifisering og beskyttelse.
+  </Card>
+  <Card title="Brannsikkerhet" icon="danger">
+    Forebygging og håndtering av brann.
+  </Card>
+  <Card title="Materialer" icon="document">
+    Tillatte og forbudte materialer.
+  </Card>
+  <Card title="Ventilasjon" icon="setting">
+    3-trinns filtreringssystem.
+  </Card>
+  <Card title="Kjølesystem" icon="approve">
+    Vannkjøling og temperaturkontroll.
+  </Card>
+  <Card title="Praktisk drift" icon="pencil">
+    Ruida 644xs og RDWorks.
+  </Card>
+  <Card title="Nødprosedyrer" icon="danger">
+    Nødstopp og rapportering.
+  </Card>
+  <Card title="Godkjenning" icon="check">
+    Praktisk test og kunnskapstest.
+  </Card>
+  <Card title="Ruida 644xs" icon="setting">
+    Videoer og praktisk veiledning.
+  </Card>
 </CardGrid>
