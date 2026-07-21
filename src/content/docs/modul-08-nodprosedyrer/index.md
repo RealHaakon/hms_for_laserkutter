@@ -1,6 +1,6 @@
 ---
-title: Modul 8 — Nødprosedyrer
-description: Nødstopp, brann, røyk, vannlekkasje og strømbrudd under kjøring.
+title: Modul 8 — Nødprosedyrer, rapportering og førstehjelp
+description: Nødstopp, brann, røyk, vannlekkasje, strømbrudd, rapportering og førstehjelp under kjøring.
 ---
 
 ## Nødstopp
@@ -61,6 +61,19 @@ Nødstoppknappen er plassert på Ruida-kontrollpanelet. Den kutter strømmen til
 4. **Følg med på tilbakemelding** — Ikke gjenoppta drift uten godkjenning ved alvorlige hendelser
 
 > **Merk:** Det er **ditt ansvar** å rapportere hendelser. Selv små hendelser kan indikere systematiske feil som bør utbedres.
+
+## Førstehjelp
+
+![Førstehjelpsutstyr tilgjengelig i laben](/img/forstehjelp.jpeg)
+
+Ved ulykker eller helseplager som følge av laserdrift:
+
+1. **Slå av maskinen** umiddelbart
+2. **Vurder skadens alvorlighetsgrad** — Er det behov for umiddelbar førstehjelp?
+3. **Ved forbrenning** — Kjøl skadestedet under rennende kaldt vann i minst 10 minutter. Dekk ikke til såret.
+4. **Ved øyekontakt med laserstråle** — Kontakt øyeblikkelig lege/vakthavende. Ikke gni øynene.
+5. **Ved innånding av gasser** — Flytt personen til frisk luft. Ved pusteproblemer, søk øyeblikkelig legehjelp.
+6. **Varsle** ansvarlig og fyll ut avviksmelding (se Rapportering ovenfor)
 
 ## Relaterte moduler
 

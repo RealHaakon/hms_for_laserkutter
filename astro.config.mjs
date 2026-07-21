@@ -36,7 +36,7 @@ export default defineConfig({
 					label: 'Drift',
 					items: [
 						{ label: 'Modul 7 — Praktisk drift', slug: 'modul-07-drift' },
-						{ label: 'Modul 8 — Nødprosedyrer', slug: 'modul-08-nodprosedyrer' },
+						{ label: 'Modul 8 — Nødprosedyrer, rapportering og førstehjelp', slug: 'modul-08-nodprosedyrer' },
 					],
 				},
 				{
