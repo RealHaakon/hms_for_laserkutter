@@ -1,0 +1,135 @@
+---
+title: Modul 9 — Operatørgodkjenning
+description: Praktisk test og kunnskapstest for å bli godkjent som laseroperatør.
+---
+
+import StoryQuiz from '../../../components/StoryQuiz.astro';
+
+For å bli godkjent som operatør må du gjennomføre både en praktisk test og en kunnskapstest.
+
+## Praktisk test
+
+Gjennomfør følgende oppgaver under tilsyn:
+
+1. **Oppstart** — Gjennomfør korrekt oppstartssekvens som beskrevet i [Modul 7](/modul-07-drift/):
+   - Sjekk kjølesystem (vannivå, temperatur, pumpe)
+   - Sjekk avtrekk (filter, luftstrøm)
+   - Start kjøler → avtrekk → hovedstrøm → laser → programvare
+
+2. **Materialvalg** — Velg et tillatt materiale og sett riktige parametere:
+   - Velg materialtype som er på tillatt-listen
+   - Velg riktig effekt og hastighet for materialet
+   - Bekreft at ventilasjonen fungerer
+
+3. **Overvåket kjøring** — Kjør en enkel jobb under tilsyn:
+   - Hold deg ved maskinen under hele kjøringen
+   - Observer at laseren fungerer som forventet
+   - Bekreft at avtrekket fungerer
+
+4. **Nedstenging** — Gjennomfør korrekt nedstengingsrekkefølge:
+   - Avslutt laser → hovedstrøm → vent med avtrekk → vent med kjøler
+
+> **Advarsel:** Du får ikke godkjent operatørgodkjenning uten å kunne alle nødprosedyrene fra [Modul 8](/modul-08-nodprosedyrer/).
+
+## Kunnskapstest
+
+Svar på følgende spørsmål. Du må ha **minst 8 av 10 riktige** for å bestå.
+
+<StoryQuiz chapter={1} questions={[
+  {
+    question: "Hvilken bølgelengde har CO2-laseren i LC1390N?",
+    options: [
+      { label: "1064 nm", feedback: "Feil. 1064 nm er bølgelengden til en fiberlaser, ikke en CO2-laser." },
+      { label: "10.6 µm", feedback: "Riktig! CO2-laseren opererer ved 10.6 µm (infrarødt), som er usynlig for det menneskelige øyet." },
+      { label: "532 nm", feedback: "Feil. 532 nm er grønt lys (grønn laser), ikke CO2-laser." },
+      { label: "405 nm", feedback: "Feil. 405 nm er fiolett/UV-lys, ikke CO2-laser." }
+    ]
+  },
+  {
+    question: "Hvorfor er CO2-laserstrålen ekstra farlig?",
+    options: [
+      { label: "Den er veldig sterk", feedback: "Feil. Styrken alene gjør den ikke ekstra farlig — det er usynligheten som er problemet." },
+      { label: "Den er usynlig, men kan ses som gnister når den kutter, og den er veldig varm", feedback: "Riktig! Laserstrålen i seg selv er usynlig (infrarød), men du kan se gnister når den kutter materiale. Den er ekstremt varm og må aldri berøres." },
+      { label: "Den er blå og blendende", feedback: "Feil. CO2-laserstrålen er infrarød, ikke synlig blå." },
+      { label: "Den er kald og ufarlig", feedback: "Feil. Laserstrålen produserer intens varme og kan forårsake alvorlige forbrenninger." }
+    ]
+  },
+  {
+    question: "Hvilket av følgende materialer er forbudt å kutte?",
+    options: [
+      { label: "Akryl", feedback: "Feil. Akryl er et av de mest vanlige og godkjente materialene for laserkutting." },
+      { label: "MDF", feedback: "Feil. MDF kan kuttes med laser, men krever godt avtrekk på grunn av røyk." },
+      { label: "PVC", feedback: "Riktig! PVC avgir klorholdig giftig gass som er dødelig farlig og korroderer maskinen." },
+      { label: "Kryssfinér", feedback: "Feil. Kryssfinér kan kuttes med laser, men sjekk limtypen." }
+    ]
+  },
+  {
+    question: "Hva avgir PVC når det kuttes med laser?",
+    options: [
+      { label: "Vanndamp", feedback: "Feil. PVC avgir ikke bare vanndamp — det produserer langt farligere stoffer." },
+      { label: "Klorholdig giftig gass", feedback: "Riktig! PVC inneholder klor som frigjøres som giftig klorholdig gass under laserkutting. Dødelig farlig." },
+      { label: "Kullmonoksid", feedback: "Feil. Selv om kulmonoksid kan forekomme, er det klorholdig gass som er hovedfaren med PVC." },
+      { label: "Ingenting", feedback: "Feil. PVC avgir svært farlige gasser — det er derfor det er strengt forbudt." }
+    ]
+  },
+  {
+    question: "Hvor befinner brannslukkeren?",
+    options: [
+      { label: "Ved siden av printerrommet", feedback: "Riktig! Brannslukkeren skal alltid være synlig og tilgjengelig ved siden av printerrommet." },
+      { label: "Under arbeidsbordet", feedback: "Feil. Brannslukkeren skal ikke gjemmes under bordet — den må være lett tilgjengelig." },
+      { label: "Utenfor bygningen", feedback: "Feil. Brannslukkeren må være innendørs og nær laserkutteren for rask tilgang." },
+      { label: "I sjefens kontor", feedback: "Feil. Brannslukkeren skal være på arbeidsstedet, ikke på et kontor." }
+    ]
+  },
+  {
+    question: "Hva gjør du hvis nødknappen trykkes inn, men det er åpne flammer i kabinettet?",
+    options: [
+      { label: "Åpner lokket umiddelbart", feedback: "Feil. Åpne lokket gir oksygen til flammene og kan forverre brannen." },
+      { label: "Bruker brannslukkeren på flammene", feedback: "Riktig! Bruk brannslukkeren fra plasseringen ved siden av printerrommet. Rett strålen mot flammene." },
+      { label: "Går hjem", feedback: "Feil. Du har ansvar for å håndtere situasjonen og varsle." },
+      { label: "Venter til flammene dør av seg selv", feedback: "Feil. Brann slukker sjelden av seg selv — det kan eskalere og bli livstruende." }
+    ]
+  },
+  {
+    question: "Hvor lenge skal vannkjøleren kjøre etter at laseren er slått av?",
+    options: [
+      { label: "Den kan slås av med en gang", feedback: "Feil. Laserrøret trenger kjøling også etter at laserstrømmen er av." },
+      { label: "1 minutt", feedback: "Feil. 1 minutt er for kort — røret trenger lengre tid på å kjøle seg ned." },
+      { label: "5 minutter", feedback: "Riktig! La vannkjøleren kjøre i 5 minutter etter at laseren er slått av for å kjøle ned røret." },
+      { label: "30 minutter", feedback: "Feil. 30 minutter er unødvendig lenge. 5 minutter er tilstrekkelig." }
+    ]
+  },
+  {
+    question: "Hva bør du gjøre hvis du merker lukt under laserdrift?",
+    options: [
+      { label: "Ignorere det", feedback: "Feil. Lukt kan være et tegn på farlige gasser eller at noe er galt." },
+      { label: "Åpne vinduet og fortsette", feedback: "Feil. Åpne vinduer løser ikke problemet — du må stoppe og undersøke." },
+      { label: "Stoppe maskinen og varsle ansvarlig", feedback: "Riktig! Stop umiddelbart og varsle ansvarlig. Sterk lukt kan indikere giftige gasser." },
+      { label: "Sette på mer effekt for å kompensere", feedback: "Feil. Mer effekt kan forverre situasjonen og øke faren." }
+    ]
+  },
+  {
+    question: "Hva bør du gjøre hvis du er usikker på noe under drift?",
+    options: [
+      { label: "Prøve selv til det går", feedback: "Feil. Usikkerhet skal aldri løses ved å prøve og feile — det kan være farlig." },
+      { label: "Spør en ansvarlig før du fortsetter", feedback: "Riktig! Det er alltid bedre å spørre enn å risikere skade på helse eller utstyr." },
+      { label: "Ignorere usikkerheten og fortsette", feedback: "Feil. Usikkerhet er et signal om at du bør stoppe og søke veiledning." },
+      { label: "Håpe på det beste", feedback: "Feil. Håp er ikke en sikkerhetsstrategi — søk hjelp hos noen som kan." }
+    ]
+  },
+  {
+    question: "Hvem sier du ifra til hvis noe er galt?",
+    options: [
+      { label: "Ingen — det ordner seg nok", feedback: "Feil. Alle hendelser og farlige situasjoner skal rapporteres, også nestenulykker." },
+      { label: "En ansvarlig, og fyller ut avviksmelding", feedback: "Riktig! Varsle alltid en ansvarlig ved usikkerhet, farlige situasjoner eller hendelser. Se kontaktperson i Modul 8." },
+      { label: "En kollega som kanskje vet", feedback: "Feil. Kollegaer kan hjelpe, men formell varsling skal gå til en ansvarlig." },
+      { label: "Du skriver det i en logg etterpå", feedback: "Feil. Alvorlige situasjoner krever øyeblikkelig varsling, ikke bare dokumentasjon i etterkant." }
+    ]
+  }
+]} />
+
+> **Advarsel:** Du må ha minst 8 av 10 riktige for å bestå. Ved stryk kan du ta testen på nytt etter gjennomgang av aktuelle moduler.
+
+## Godkjenning
+
+Etter å ha bestått både praktisk test og kunnskapstest, registreres du som godkjent operatør. Godkjenningen gjelder for én sesjon av gangen — du må demonstrere kunnskapen ved behov.

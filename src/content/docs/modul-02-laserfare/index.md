@@ -18,7 +18,7 @@ description: Forstå lasertyper, fareområder og beskyttelsesutstyr for CO2-lase
 
 ![Laserbriller for CO2-laserbeskyttelse](/img/laserbriller.jpeg)
 
-**Påbudt** å bruke under all drift:
+ Bruk laserbriller under drift:
 
 - Laserbriller beskytter øynene mot intens laserstråling som kan forårsake alvorlige forbrenninger og permanente skader på netthinnen
 - De blokkerer eller reduserer spesifikke bølgelengder av lys, og beskytter også mot skadelig ultrafiolett (UV) og infrarød (IR) stråling
