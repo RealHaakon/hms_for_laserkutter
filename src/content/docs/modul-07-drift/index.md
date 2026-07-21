@@ -17,18 +17,14 @@ Følg denne rekkefølgen.
 
 6. **Start RDWorks** på datamaskinen.
 
-## Jobbparametere i RDWorks
+## Video: Praktisk drift (Del 1)
 
-### Hastighet og effekt
+<iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/0qzz4yRs-d4" title="Praktisk drift Del 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-Hastigheten og effekten bestemmer kuttedybden og kvaliteten:
+## Video: Praktisk drift (Del 2)
 
-| Mål | Effekt | Hastighet | Merknad |
-|---|---|---|---|
-| Tynt kutt (papir, tekstil) | 15–30 % | 200–400 mm/s | Lav effekt for å unngå brann |
-| Standard kutt (akryl, tre) | 40–70 % | 100–200 mm/s | Tilpass etter tykkelse |
-| Dypt kutt (tykk MDF) | 70–100 % | 50–100 mm/s | Krever god ventilasjon |
-| Gravering | 20–50 % | 300–500 mm/s | Høy hastighet, lav effekt |
+<iframe width="100%" style="aspect-ratio: 16/9;" src="https://www.youtube.com/embed/_xUiBlivgTk" title="Praktisk drift Del 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ### Filoverføring
 
