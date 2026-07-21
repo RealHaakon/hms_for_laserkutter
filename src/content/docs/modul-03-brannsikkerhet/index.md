@@ -28,11 +28,10 @@ Brannslukkeren befinner seg **ved siden av printerrommet**. Alle som bruker lase
 ## Nødstopp ved brann
 
 1. **Stop maskinen umiddelbart** — Trykk nødstoppknappen på Ruida-panelet eller dra ut nødstoppbryteren
-2. **Vent 5 sekunder** — La laseren stoppe fullstendig
-3. **Vurder situasjonen** — Er det åpne flammer? Røyk? Kan du trygt åpne lokket?
-4. **Åpne lokket kun hvis trygt** — Hvis det ikke er åpne flammer i kabinettet
-5. **Kvel eller slukk brannen** — Bruk brannslukker, brannsteppe eller vann hvis det er trygt
-6. **Evakuér ved behov** — Hvis røyken er for kraftig, forlat rommet og varsle
+2. **Vurder situasjonen** — Er det åpne flammer? Røyk? Kan du trygt åpne lokket?
+3. **Åpne lokket kun hvis trygt** — Hvis det ikke er åpne flammer i kabinettet
+4. **Kvel eller slukk brannen** — Bruk brannslukker eller vann ved brann
+5. **Evakuér ved behov** — Hvis røyken er for kraftig, forlat rommet og varsle
 
 > **Advarsel:** Åpne lokket under brann kan gi oksygen til flammene og forverre situasjonen. Vurder alltid først om det er trygt.
 
@@ -42,6 +41,7 @@ Brannslukkeren befinner seg **ved siden av printerrommet**. Alle som bruker lase
 - Fjern løse materialer og avfall fra arbeidsområdet
 - Ikke la materialer ligge igjen på bordet etter ferdig jobb
 - Hold brannslukkeren innen rekkevidde
+- Bare laserkutt godkjente materialer (se [Modul 4](/modul-04-materialer/))
 
 ## Relaterte moduler
 

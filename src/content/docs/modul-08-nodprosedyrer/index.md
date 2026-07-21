@@ -9,16 +9,16 @@ Nødstoppknappen er plassert på Ruida-kontrollpanelet. Den kutter strømmen til
 
 ![Nødstoppknapp på Ruida-kontrollpanelet](/img/nodstopp.jpeg)
 
-> **Farlig:** Nødstopp-knappen stopper laseren, men **slukker ikke en brann.** For brann, se nødprosedyren nedenfor.
+> **Farlig:** Nødstopp-knappen stopper laseren, men **slukker ikke en brann.**
 
 ## Nødsituasjoner og håndtering
 
 ### Brann i maskinen
 
-1. **Trykk nødstopp** på Ruida-panelet
+1. **Trykk nødstopp** på panelet
 2. **Vurder situasjonen** — Er det åpne flammer? Er røyken overkommelig?
 3. **Hvis ja til åpne flammer** — Bruk brannslukker fra plasseringen ved siden av printerrommet. Rett strålen mot flammene
-4. **Hvis nei til åpne flammer** — Åpne lokket forsiktig og bruk brannsteppe for å kvele røyk/glød
+4. **Hvis nei til åpne flammer** — Åpne lokket forsiktig
 5. **Evakuér** hvis røyken er for kraftig eller brannen ikke lar seg slukke
 6. **Varsle** og rapportér hendelsen (se nedenfor)
 
@@ -55,9 +55,9 @@ Nødstoppknappen er plassert på Ruida-kontrollpanelet. Den kutter strømmen til
 
 ### Rutine for rapportering
 
-1. **Fyll ut avviksmelding** — Bruk skjemaet på bildet over
+1. **Fyll ut avviksmelding** — Bruk skjemaet på bildet over. Scan QR-kode og fyll ut skjema.
 2. **Dokumenter hendelsen** — Dato, klokkeslett, hva som skjedde, tiltak som ble tatt
-3. **Lever til kontaktperson** — Ola Sørby Omberg
+3. **Lever til kontaktperson** — Nettskjema vil levere automatisk til riktig person.
 4. **Følg med på tilbakemelding** — Ikke gjenoppta drift uten godkjenning ved alvorlige hendelser
 
 > **Merk:** Det er **ditt ansvar** å rapportere hendelser. Selv små hendelser kan indikere systematiske feil som bør utbedres.

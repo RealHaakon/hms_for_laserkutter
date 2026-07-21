@@ -7,7 +7,7 @@ description: Vannkjøling av laserrøret, sjekk av vannnivå/temperatur og hånd
 
 CO2-laserrøret produserer betydelig varme under drift. Uten aktiv kjøling overoppheter røret, mister effekt, og kan i verste fall sprekke eller forårsake brann.
 
-> **Farlig:** Kjølesvikt kan forårsake permanent skade på laserrøret (verdt titusener av kroner) og økt brannrisiko. Sjekk alltid kjølesystemet før bruk.
+> **Farlig:** Kjølesvikt kan forårsake permanent skade på laserrøret og økt brannrisiko. Sjekk alltid kjølesystemet før bruk.
 
 ## Sjekkliste før hver sesjon
 
@@ -35,16 +35,7 @@ Maskinen har en innebygd temperaturvarsling som utløses når:
 - Kjølepumpen svikter og vannet ikke sirkulerer
 - Vannivået faller under minimumsgrensen
 
-> **Advarsel:** Hvis temperaturvarselet utløses: **Stop maskinen umiddelbart.** Vent til temperaturen faller under 25 °C før gjenopptakelse.
-
-## Hva skjer ved kjølesvikt?
-
-| Feil | Konsekvens | Umiddelig tiltak |
-|---|---|---|
-| Lekkasje i slange | Vann på gulv, utilstrekkelig kjøling | Stop maskinen, tørk opp, skift slange |
-| Pumpe sviktet | Ingen sirkulasjon, røret overoppheter | Stop umiddelbart, la systemet kjøle seg ned |
-| Vann for varmt | Redusert kjøleeffekt | Stop, vent, fyll på kaldt vann om nødvendig |
-| Vannnivå for lavt | Luftpumper i systemet, ujevn kjøling | Fyll på destillert vann |
+> **Advarsel:** Hvis temperaturvarselet utløses: **Stop maskinen umiddelbart**, og si ifra til en ansvarlig. 
 
 ## Relaterte moduler
 

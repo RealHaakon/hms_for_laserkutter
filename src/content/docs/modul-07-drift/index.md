@@ -5,19 +5,17 @@ description: Oppstartssekvens, jobbinnstillinger og nedstengning for LC1390N.
 
 ## Oppstartssekvens
 
-Følg alltid denne rekkefølgen. Feil rekkefølge kan skade utstyr eller skape farlige situasjoner.
+Følg denne rekkefølgen.
 
 ![Trinn-for-trinn oppstartssekvens for laserkutteren](/img/oppstarts-rutine.png)
 
-1. **Sjekk kjølesystemet** — Vannivå, temperatur, pumpefunksjon (se [Modul 6](/modul-06-kjolesystem/))
-2. **Sjekk avtrekket** — Er filteret reint? Er luftstrømmen i orden? (se [Modul 5](/modul-05-ventilasjon/))
-3. **Slå på vannkjøleren** — Vent til pumpen stabiliserer seg (30 sekunder)
-4. **Slå på avtrekket** — Sørg for at ventilasjonen kjører
-5. **Slå på hovedstrømmen** til maskinen
-6. **Slå på laseren** via laseralbryteren på panelet
-7. **Start RDWorks** på datamaskinen og koble til maskin via USB
+1. **Slå på hovedstrømmen** til maskinen
+2. **Sjekk kjølesystemet** — Vannivå, temperatur, pumpefunksjon (se [Modul 6](/modul-06-kjolesystem/))
+3. **Sjekk avtrekket** — Er filteret reint? Er luftstrømmen i orden? (se [Modul 5](/modul-05-ventilasjon/))
+4. **Slå på vannkjøleren** — Vent til pumpen stabiliserer seg (30 sekunder)
+5. **Slå på avtrekket** — Sørg for at ventilasjonen kjører
 
-> **Advarsel:** Vannkjøleren må **alltid** startes før selve laseren. Laserrøret skal aldri aktiveres uten aktiv kjøling.
+6. **Start RDWorks** på datamaskinen.
 
 ## Jobbparametere i RDWorks
 
@@ -34,23 +32,22 @@ Hastigheten og effekten bestemmer kuttedybden og kvaliteten:
 
 ### Filoverføring
 
-1. Design filen i programvaren din (Inkscape, CorelDRAW, eller tilsvarende)
-2. Eksporter til **.RD** format eller importer til RDWorks
-3. Plasser motivet på arbeidsområdet i programvaren
-4. Sett riktige lag for kutt og gravering (forskjellige farger)
-5. Overfør filen til maskinen via USB eller nettverk
+1. Design filen i foretrukket programvare (Solidworks, Autodesk, eller tilsvarende)
+2. Eksporter til **.svg**, **dxf**, **jpg/png** format
+3. Overfør til maskin med mail eller bruk for eksempel https://www.file.io/ . (for tilgang, spør ansvarlig)
+4. importer til RDWorks
+
+
 
 ## Nedstengningssekvens
 
-**Følg alltid baklengs rekkefølge** av oppstart:
+**Følg baklengs rekkefølge** av oppstart:
 
-1. **Slå av laseren** via laseralbryteren
-2. **Vent 10 sekunder** — La strømforsyningen stabilisere seg
-3. **Slå av hovedstrømmen** til maskinen
-4. **La avtrekket kjøre** i 2–3 minutter til røyken er fullstendig fjernet
-5. **Slå av avtrekket**
-6. **La vannkjøleren kjøre** i 5 minutter etter at laseren er av (for å kjøle ned røret)
-7. **Slå av vannkjøleren**
+1. **Slå av hovedstrømmen** til maskinen
+2. **La avtrekket kjøre** i 2–3 minutter til røyk og partikkeler er fullstendig fjernet
+3. **Slå av avtrekket**
+4. **La vannkjøleren kjøre** i 5 minutter etter at laseren er av (for å kjøle ned røret)
+5. **Slå av vannkjøleren**
 
 > **Farlig:** Aldri slå av vannkjøleren umiddelbart etter laseren. Laserrøret trenger kjøling også etter at laserstrømmen er av.
 
@@ -61,7 +58,6 @@ Hastigheten og effekten bestemmer kuttedybden og kvaliteten:
 | Laseren starter ikke | Kjøleren er ikke på | Slå på kjøleren og prøv igjen |
 | Svakt kutt | Effekten er for lav | Øk effekten eller reduser hastigheten |
 | Brennmerker | Hastigheten er for lav | Øk hastigheten eller reduser effekten |
-| Filen overføres ikke | USB-kabel løs | Sjekk kabelforbindelse og restart RDWorks |
 
 ## Relaterte moduler
 
