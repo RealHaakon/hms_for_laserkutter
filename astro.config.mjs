@@ -7,6 +7,9 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'HMS-opplæring: Gweike LC1390N',
+			components: {
+				Hero: './src/components/Hero.astro',
+			},
 			sidebar: [
 				{
 					label: 'Introduksjon',
