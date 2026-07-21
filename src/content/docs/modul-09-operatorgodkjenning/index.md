@@ -3,13 +3,9 @@ title: Modul 9 — Operatørgodkjenning
 description: Praktisk test og kunnskapstest for å bli godkjent som laseroperatør.
 ---
 
-import { Aside, Steps } from '@astrojs/starlight/components';
-
 ## Praktisk test
 
 For å bli godkjent som operatør må du gjennomføre følgende oppgaver under tilsyn:
-
-<Steps>
 
 1. **Oppstart** — Gjennomfør korrekt oppstartssekvens som beskrevet i [Modul 7](/modul-07-drift/):
    - Sjekk kjølesystem (vannivå, temperatur, pumpe)
@@ -29,11 +25,7 @@ For å bli godkjent som operatør må du gjennomføre følgende oppgaver under t
 4. **Nedstenging** — Gjennomfør korrekt nedstengingsrekkefølge:
    - Avslutt laser → hovedstrøm → vent med avtrekk → vent med kjøler
 
-</Steps>
-
-<Aside type="warning">
-Du får ikke godkjent operatørgodkjenning uten å kunne alle nødprosedyrene fra Modul 8.
-</Aside>
+> **Advarsel:** Du får ikke godkjent operatørgodkjenning uten å kunne alle nødprosedyrene fra Modul 8.
 
 ## Kunnskapstest
 

@@ -3,34 +3,27 @@ title: "Modul 4 — Materialer: tillatt og forbudt"
 description: Hvilke materialer kan LC1390N kutte, og hvilke er strengt forbudt og hvorfor.
 ---
 
-import { Aside, Card, CardGrid } from '@astrojs/starlight/components';
-
 Gweike LC1390N er designet for kutting og gravering av **ikke-metalliske materialer**. Det er avgjørende å bruke riktige materialer — feil valg kan forårsake giftige gasser, brann eller skade på maskinen.
 
 ![Organisert lagring av plater og kryssfiner på materialhylle](/img/materialhylle.jpeg)
 
-<Aside type="danger">
-Ved **usikkerhet**: Spør en ansvarlig før du setter i gang. Det er alltid bedre å spørre enn å risikere skade på helse eller utstyr.
-</Aside>
+> **Farlig:** Ved **usikkerhet**: Spør en ansvarlig før du setter i gang. Det er alltid bedre å spørre enn å risikere skade på helse eller utstyr.
 
 ## Tillatte materialer
 
 ![Godkjente materialer for laserkutting i laben](/img/godkjente-materialer.png)
 
-<CardGrid>
-  <Card title="Akryl (Plexiglass)" icon="document">
-    Kutt og gravering med høy effekt, middels hastighet. Ren kant og god finish.
-  </Card>
-  <Card title="MDF" icon="document">
-    Kutt og gravering med middels effekt. Gir mye røyk — krever godt avtrekk.
-  </Card>
-  <Card title="Kryssfinér" icon="document">
-    Kutt og gravering med middels effekt. Sjekk limtype — noen lim avgir gasser.
-  </Card>
-  <Card title="Lær (ekte/kunstig)" icon="document">
-    Kutt og gravering med lav-middels effekt. Ekte lær lukter sterkt — ekstra ventilasjon.
-  </Card>
-</CardGrid>
+### Akryl (Plexiglass)
+Kutt og gravering med høy effekt, middels hastighet. Ren kant og god finish.
+
+### MDF
+Kutt og gravering med middels effekt. Gir mye røyk — krever godt avtrekk.
+
+### Kryssfinér
+Kutt og gravering med middels effekt. Sjekk limtype — noen lim avgir gasser.
+
+### Lær (ekte/kunstig)
+Kutt og gravering med lav-middels effekt. Ekte lær lukter sterkt — ekstra ventilasjon.
 
 | Materiale | Tykkelse | Hastighet | Effekt | Passeringer |
 |---|---|---|---|---|
@@ -43,19 +36,13 @@ Ved **usikkerhet**: Spør en ansvarlig før du setter i gang. Det er alltid bedr
 
 ![Kutteinstillinger for kryssfiner på GWEIKE LC1390N](/img/instillinger-kryssfiner.jpeg)
 
-<Aside type="tip">
-Verdiene over er utgangspunkt. Test alltid på et lite hjørne før du kutter hele prosjektet.
-</Aside>
+> **Tips:** Verdiene over er utgangspunkt. Test alltid på et lite hjørne før du kutter hele prosjektet.
 
 ## Forbudte materialer — og hvorfor
 
-<Aside type="danger">
-**PVC og vinyl** avgir **klorholdig gass** som er dødelig farlig og korroderer maskinen. Disse materialene er **strengt forbudt**.
-</Aside>
+> **Farlig:** **PVC og vinyl** avgir **klorholdig gass** som er dødelig farlig og korroderer maskinen. Disse materialene er **strengt forbudt**.
 
-<Aside type="danger">
-**ABS-plast** avgir **cyanidholdig gass** (giftig) og gir svært ujevn flamme. **Ikke bruk under noen omstendigheter.**
-</Aside>
+> **Farlig:** **ABS-plast** avgir **cyanidholdig gass** (giftig) og gir svært ujevn flamme. **Ikke bruk under noen omstendigheter.**
 
 | Materiale | Årsak til forbud |
 |---|---|
@@ -67,11 +54,9 @@ Verdiene over er utgangspunkt. Test alltid på et lite hjørne før du kutter he
 | **Glass** | CO2-lasere kan ikke kutte glass effektivt — risikerer sprengning |
 | **Metall (tykt)** | LC1390N er ikke designet for metallkutting |
 
-![Bilde av materialer som ikke må kuttes](/img/materialer-forbudt.png)
+![Forbudte materialer for laserkutting inkludert PVC, vinyl og ABS](/img/materialer-forbudt.png)
 
-<Aside type="caution">
-**Unntak for metall:** Maskinen kan kutte/gravere **tynn rustfritt stål og karbonstål** (ca. 0,5 mm) ved gravering med riktige innstillinger. Men den kan **IKKE** kutte tykkere metaller. Overskridelse kan skade laserrøret og forårsake brann.
-</Aside>
+> **Obs:** **Unntak for metall:** Maskinen kan kutte/gravere **tynn rustfritt stål og karbonstål** (ca. 0,5 mm) ved gravering med riktige innstillinger. Men den kan **IKKE** kutte tykkere metaller. Overskridelse kan skade laserrøret og forårsake brann.
 
 ## Når du er usikker
 

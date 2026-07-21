@@ -42,7 +42,6 @@ export default defineConfig({
 				{
 					label: 'Godkjenning',
 					items: [
-						{ label: 'Modul 9 — Operatørgodkjenning', slug: 'modul-09-operatorgodkjenning' },
 						{ label: 'Modul 10 — Ruida 644xs', slug: 'modul-10-ruidia' },
 					],
 				},

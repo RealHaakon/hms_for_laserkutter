@@ -3,13 +3,9 @@ title: Modul 1 — Introduksjon og maskinoversikt
 description: HMS-opplæring for Gweike LC1390N CO2-laserkutter. Oversikt over maskin, spesifikasjoner og viktige komponenter.
 ---
 
-import { Aside, Card, CardGrid, TabItem, Tabs } from '@astrojs/starlight/components';
-
 Dette kurset dekker helse-, miljø- og sikkerhetsaspekter ved bruk av **Gweike LC1390N CO2-laserkutter**. Maskinen brukes til kutting og gravering av ikke-metalliske materialer.
 
-<Aside type="tip">
-Dette er en **CO2-laser** med bølgelengde 10.6 µm (infrarødt). Strålen er **usynlig** for det menneskelige øyet. Du kan ikke se når laseren er på.
-</Aside>
+> **Tips:** Dette er en **CO2-laser** med bølgelengde 10.6 µm (infrarødt). Strålen er **usynlig** for det menneskelige øyet. Du kan ikke se når laseren er på.
 
 ## Maskinspesifikasjoner
 
@@ -28,20 +24,17 @@ Dette er en **CO2-laser** med bølgelengde 10.6 µm (infrarødt). Strålen er **
 
 ## Viktige komponenter
 
-<CardGrid>
-  <Card title="Laserrør" icon="warning">
-    Forseglet CO2-rør med giftig gassblanding. Skadet rør må aldri åpnes eller håndteres uten opplæring.
-  </Card>
-  <Card title="Ruida-kontrollpanel" icon="setting">
-    Betjeningspanel på maskinens høyre side. Herfra styres jobber, hastighet og effekt.
-  </Card>
-  <Card title="Vannkjøler" icon="approve">
-    Ekstern enhet som kjøler laserrøret. Må kjøre under all laserdift.
-  </Card>
-  <Card title="Avtrekksystem" icon="open-book">
-    3-trinns filtreringssystem som fjerner røyk og farlige gasser. Må alltid være aktivt.
-  </Card>
-</CardGrid>
+### Laserrør
+Forseglet CO2-rør med giftig gassblanding. Skadet rør må aldri åpnes eller håndteres uten opplæring.
+
+### Ruida-kontrollpanel
+Betjeningspanel på maskinens høyre side. Herfra styres jobber, hastighet og effekt.
+
+### Vannkjøler
+Ekstern enhet som kjøler laserrøret. Må kjøre under all laserdift.
+
+### Avtrekksystem
+3-trinns filtreringssystem som fjerner røyk og farlige gasser. Må alltid være aktivt.
 
 ## Forskjellen mellom brytere og laserkilden
 
@@ -52,9 +45,7 @@ Det er viktig å forstå at maskinen har flere på-/av-systemer som utfører for
 3. **Laseralbryter** — Sender kun strøm til selve laserrøret. Brukes for å aktivere/deaktivere laserstrålen uten å slå av hele maskinen.
 4. **Vannkjøler** — Egen strømbryter. Må alltid stå **på** når laseren er i bruk.
 
-<Aside type="danger">
-Nødstopp-knappen stopper laseren, men **slukker ikke brann**. Se Modul 8 for riktig nødprosedyre.
-</Aside>
+> **Farlig:** Nødstopp-knappen stopper laseren, men **slukker ikke brann**. Se Modul 8 for riktig nødprosedyre.
 
 ## Neste steg
 

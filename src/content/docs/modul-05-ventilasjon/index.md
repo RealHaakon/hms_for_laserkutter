@@ -3,21 +3,17 @@ title: Modul 5 — Ventilasjon og filtrering
 description: 3-trinns filtreringssystem, driftsrutiner og konsekvenser av defekt avtrekk.
 ---
 
-import { Aside, Steps, Card, CardGrid } from '@astrojs/starlight/components';
-
 ## Hvorfor ventilasjon er kritisk
 
 Laserkutting produserer **røyk, partikler og farlige gasser** avhengig av materialet. Uten riktig avtrekk kan du puste inn giftige forbindelser som forårsaker akutt forgiftning eller langvarig helseskade.
 
-<Aside type="danger">
-Drift **uten fungerende avtrekk** er forbudt. Konsekvensene inkluderer: forgiftning, irritasjon av luftveier, øyeskader og risiko for eksplosjon av konsentrerte gasser.
-</Aside>
+> **Farlig:** Drift **uten fungerende avtrekk** er forbudt. Konsekvensene inkluderer: forgiftning, irritasjon av luftveier, øyeskader og risiko for eksplosjon av konsentrerte gasser.
 
 ## 3-trinns filtreringssystem
 
 LC1390N bruker et avansert filtreringssystem i tre trinn:
 
-![Ventilasjon-cartoon](/img/ventilasjon-cartoon.png)
+![Illustrasjon av 3-trinns filtreringssystem med partikkelfilter, HEPA og aktivt kull](/img/ventilasjon-cartoon.png)
 
 ### Trinn 1: Partikkelfilter
 
@@ -37,27 +33,21 @@ LC1390N bruker et avansert filtreringssystem i tre trinn:
 - Fjerner skadelige gasser som ikke fanget av partikkelfiltrene
 - **Byttefrekvens:** Etter produsentens anvisning, typisk hver 3–6 måned
 
-<Aside type="warning">
-Alle tre trinn **må fungere** samtidig. Hvis ett trinn svikter, blir ikke de andre tilstrekkelig — og avgassene når rommet.
-</Aside>
+> **Advarsel:** Alle tre trinn **må fungere** samtidig. Hvis ett trinn svikter, blir ikke de andre tilstrekkelig — og avgassene når rommet.
 
 ## Plassering av ventilasjonsenheten
 
-![Ventilasjon-plassering](/img/ventilasjon-plassering.jpeg)
+![Plassering av ventilasjonsenheten ved siden av laserkutteren](/img/ventilasjon-plassering.jpeg)
 
-![Ventilasjon-zoom](/img/ventilasjon-zoom.jpeg)
+![Detaljert utsikt over ventilasjonsenhetens tilkoblinger og filterinngang](/img/ventilasjon-zoom.jpeg)
 
 ## Sjekkliste for filter
-
-<Steps>
 
 1. **Start maskinen** og la ventilasjonen kjøre i 30 sekunder
 2. **Kjenn etter luftstrøm** ved utluftingsrøret — det skal kjennes tydelig sug
 3. **Sjekk filtertilstanden** — Er partikkelfiltret synlig tilslammet? Bytt da umiddelbart
 4. **Varsle ved behov** — Hvis luftstrømmen er svak, eller du merker lukt under drift, varsle ansvarlig umiddelbart
 5. **Dokumenter** — Noter dato for siste filterbytte i loggen ved maskinen
-
-</Steps>
 
 ## Konsekvenser av defekt avtrekk
 

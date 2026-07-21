@@ -3,8 +3,6 @@ title: Modul 3 — Brannsikkerhet
 description: Brannrisiko ved laserkutting, påbudt oppførsel og nødprosedyrer for LC1390N.
 ---
 
-import { Aside, Steps } from '@astrojs/starlight/components';
-
 ## Brannrisiko ved laserkutting
 
 Laserkutting involverer høy varme som kan antenne materialer. Brann oppstår når:
@@ -13,15 +11,13 @@ Laserkutting involverer høy varme som kan antenne materialer. Brann oppstår n�
 - Avgasser kondenserer og samler seg i kabinettet
 - Ventilasjonen er utilstrekkelig og varme bygger seg opp
 
-<Aside type="danger">
-**Ubemannet drift er forbudt uansett jobblengde.** Du må alltid være til stede og observere maskinen under hele kjøringen.
-</Aside>
+> **Farlig:** **Ubemannet drift er forbudt uansett jobblengde.** Du må alltid være til stede og observere maskinen under hele kjøringen.
 
 ## Brannslukkingsutstyr
 
 Brannslukkeren befinner seg **ved siden av printerrommet**. Alle som bruker laserkutteren skal vite hvor den er og hvordan den brukes.
 
-![Brannslukker](/img/brannaparat.jpeg)
+![Brannslukker plassert ved siden av printerrommet](/img/brannaparat.jpeg)
 
 ### Plassering og tilgjengelighet
 
@@ -31,8 +27,6 @@ Brannslukkeren befinner seg **ved siden av printerrommet**. Alle som bruker lase
 
 ## Nødstopp ved brann
 
-<Steps>
-
 1. **Stop maskinen umiddelbart** — Trykk nødstoppknappen på Ruida-panelet eller dra ut nødstoppbryteren
 2. **Vent 5 sekunder** — La laseren stoppe fullstendig
 3. **Vurder situasjonen** — Er det åpne flammer? Røyk? Kan du trygt åpne lokket?
@@ -40,11 +34,7 @@ Brannslukkeren befinner seg **ved siden av printerrommet**. Alle som bruker lase
 5. **Kvel eller slukk brannen** — Bruk brannslukker, brannsteppe eller vann hvis det er trygt
 6. **Evakuér ved behov** — Hvis røyken er for kraftig, forlat rommet og varsle
 
-</Steps>
-
-<Aside type="warning">
-Åpne lokket under brann kan gi oksygen til flammene og forverre situasjonen. Vurder alltid først om det er trygt.
-</Aside>
+> **Advarsel:** Åpne lokket under brann kan gi oksygen til flammene og forverre situasjonen. Vurder alltid først om det er trygt.
 
 ## Forebyggende tiltak
 

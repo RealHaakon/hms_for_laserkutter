@@ -3,15 +3,11 @@ title: Modul 7 — Praktisk drift via Ruida/RDWorks
 description: Oppstartssekvens, jobbinnstillinger og nedstengning for LC1390N.
 ---
 
-import { Aside, Steps, Card, CardGrid } from '@astrojs/starlight/components';
-
 ## Oppstartssekvens
 
 Følg alltid denne rekkefølgen. Feil rekkefølge kan skade utstyr eller skape farlige situasjoner.
 
-![Oppstarts-rutine](/img/oppstarts-rutine.png)
-
-<Steps>
+![Trinn-for-trinn oppstartssekvens for laserkutteren](/img/oppstarts-rutine.png)
 
 1. **Sjekk kjølesystemet** — Vannivå, temperatur, pumpefunksjon (se [Modul 6](/modul-06-kjolesystem/))
 2. **Sjekk avtrekket** — Er filteret reint? Er luftstrømmen i orden? (se [Modul 5](/modul-05-ventilasjon/))
@@ -21,11 +17,7 @@ Følg alltid denne rekkefølgen. Feil rekkefølge kan skade utstyr eller skape f
 6. **Slå på laseren** via laseralbryteren på panelet
 7. **Start RDWorks** på datamaskinen og koble til maskin via USB
 
-</Steps>
-
-<Aside type="warning">
-Vannkjøleren må **alltid** startes før selve laseren. Laserrøret skal aldri aktiveres uten aktiv kjøling.
-</Aside>
+> **Advarsel:** Vannkjøleren må **alltid** startes før selve laseren. Laserrøret skal aldri aktiveres uten aktiv kjøling.
 
 ## Jobbparametere i RDWorks
 
@@ -52,8 +44,6 @@ Hastigheten og effekten bestemmer kuttedybden og kvaliteten:
 
 **Følg alltid baklengs rekkefølge** av oppstart:
 
-<Steps>
-
 1. **Slå av laseren** via laseralbryteren
 2. **Vent 10 sekunder** — La strømforsyningen stabilisere seg
 3. **Slå av hovedstrømmen** til maskinen
@@ -62,11 +52,7 @@ Hastigheten og effekten bestemmer kuttedybden og kvaliteten:
 6. **La vannkjøleren kjøre** i 5 minutter etter at laseren er av (for å kjøle ned røret)
 7. **Slå av vannkjøleren**
 
-</Steps>
-
-<Aside type="danger">
-Aldri slå av vannkjøleren umiddelbart etter laseren. Laserrøret trenger kjøling også etter at laserstrømmen er av.
-</Aside>
+> **Farlig:** Aldri slå av vannkjøleren umiddelbart etter laseren. Laserrøret trenger kjøling også etter at laserstrømmen er av.
 
 ## Vanlige feil
 

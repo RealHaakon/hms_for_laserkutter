@@ -3,8 +3,6 @@ title: Modul 2 — Laserfare og klassifisering
 description: Forstå lasertyper, fareområder og beskyttelsesutstyr for CO2-laseren.
 ---
 
-import { Aside, Card, CardGrid } from '@astrojs/starlight/components';
-
 ## Hvorfor CO2-laseren er farlig
 
 En CO2-laser som Gweike LC1390N er en **klasse 4-laser** når kapslingen er kompromittert. Dette betyr:
@@ -13,11 +11,9 @@ En CO2-laser som Gweike LC1390N er en **klasse 4-laser** når kapslingen er komp
 - **Reflektert stråle** fra blanke overflater kan forårsake øyeskader uten at du ser strålen
 - Strålen er **usynlig** (10.6 µm, infrarødt) — du ser ikke hvor den treffer
 
-![Laserbruks-cartoon](/img/laser-bruk-cartoon.png)
+![Illustrasjon av riktig og feil bruk av laserkutter](/img/laser-bruk-cartoon.png)
 
-<Aside type="danger">
-Klasse 4-fare gjelder **kun** hvis kapsling/interlock er kompromittert. Normal drift med lokk lukket og alle interlocks intakt er trygt. Aldri_overvåk laseren med åpent lokk uten laserbriller.
-</Aside>
+> **Fare:** Klasse 4-fare gjelder **kun** hvis kapsling/interlock er kompromittert. Normal drift med lokk lukket og alle interlocks intakt er trygt. Aldri overvåk laseren med åpent lokk uten laserbriller.
 
 ## Usynlig stråle — ekstra fare
 
@@ -27,9 +23,7 @@ Fordi CO2-laserstrålen er infrarød, kan du ikke se den. Dette betyr:
 - Reflektert lys fra metalliske deler eller blanke flater kan nå øynene uten varsel
 - Du får **ingen visuell indikasjon** på at laseren er aktiv — kun instrumenter og display viser dette
 
-<Aside type="note">
-Klassifiseringen er **Klasse IV** ifølge brukermanualen. Dette er den høyeste laserklassen og krever strengeste sikkerhetstiltak.
-</Aside>
+> **Merk:** Klassifiseringen er **Klasse IV** ifølge brukermanualen. Dette er den høyeste laserklassen og krever strengeste sikkerhetstiltak.
 
 ## Laserbriller
 
@@ -40,14 +34,11 @@ Klassifiseringen er **Klasse IV** ifølge brukermanualen. Dette er den høyeste 
 - Vanlige solbriller eller sikkerhetsbriller **beskytter ikke** mot infrarød laserstråle
 - Briller skal oppbevares i renn, ikke i lommer der de kan bli ripete
 
-<CardGrid>
-  <Card title="Riktig beskyttelse" icon="approve">
-    Laserbriller merket for 10.6 µm CO2-laser. Sjekk at de ikke har riper eller skader.
-  </Card>
-  <Card title="Feil beskyttelse" icon="warning">
-    Vanlige vernebriller, solbriller eller briller merket for andre bølgelengder (f.eks. 1064 nm fiberlaser).
-  </Card>
-</CardGrid>
+### Riktig beskyttelse
+Laserbriller merket for 10.6 µm CO2-laser. Sjekk at de ikke har riper eller skader.
+
+### Feil beskyttelse
+Vanlige vernebriller, solbriller eller briller merket for andre bølgelengder (f.eks. 1064 nm fiberlaser).
 
 ## Når er det trygt?
 
