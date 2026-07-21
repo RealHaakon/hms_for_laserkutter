@@ -9,3 +9,6 @@ allowBuilds:
   esbuild: true
   workerd: true
   sharp: true
+
+minimumReleaseAgeExclude:
+  - '@astrojs/cloudflare@14.1.4'
